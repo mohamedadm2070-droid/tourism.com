@@ -94,6 +94,7 @@
       position: fixed;
       bottom: 20px;
       left: 20px;
+      background: extension #25d366;
       background: #25d366;
       color: white;
       width: 60px;
@@ -130,13 +131,13 @@
       اضغط على الزر بالأسفل للتواصل معنا مباشرة عبر واتساب.
     </p>
 
-    <!-- زر واتساب الرئيسي -->
+    <!-- زر واتساب الرئيسي مع تتبع الحدث -->
     <a
       class="whatsapp-btn"
       href="https://wa.me/201019173933"
       target="_blank"
       rel="noopener noreferrer"
-      onclick="if(window.ttq){ttq.track('Contact');}"
+      onclick="ttq.track('Contact');"
     >
       💚 تواصل معنا عبر واتساب
     </a>
@@ -151,14 +152,14 @@
 
   </div>
 
-  <!-- زر واتساب العائم -->
+  <!-- زر واتساب العائم مع تتبع الحدث -->
   <a
     class="floating-whatsapp"
     href="https://wa.me/201019173933"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="تواصل معنا عبر واتساب"
-    onclick="if(window.ttq){ttq.track('Contact');}"
+    onclick="ttq.track('Contact');"
   >
     ☎
   </a>
